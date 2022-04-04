@@ -1,0 +1,10 @@
+color: rgb(0, 122, 180);
+
+
+to do :
+- animate hero button
+
+
+
+- make responsive
+

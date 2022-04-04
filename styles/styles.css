@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap");
+
+/*just smooth scroll*/
+
+html {
+  scroll-behavior: smooth;
+}
+.wrapper {
+  display: block;
+}
+/*--------------first page----------*/
+
+.container1 {
+  height: 100vh;
+    display: block;
+}
+
+.introduction {
+  margin: 30px 30px;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.hero-title {
+  color: black;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+.text-color-main {
+  color: rgb(0, 122, 180);
+  font-weight: 500;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-cta {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 122, 180);
+}
+.cta-btn--hero {
+  font-family: "Poppins",sans-serif;
+  text-decoration: none;
+  border-radius: 10px 10px;
+  padding: 10px 10px;
+  font-size: 20px !important;
+  font-weight: 500;
+  border: 3px solid rgb(0, 122, 180);
+  color: rgb(0, 122, 180);
+  margin: 10px 10px;
+}
+
+/*----------------end first page-------*/
+
+/*---------------start second page--------*/
+
+
+.about-intro{
+    padding: 50px 30px;
+}
+
+.img-fluid{
+    width: 20%;
+    height: auto;
+
+}
+.more {
+  display: flex;
+}
+
+.about-info-text {
+  padding-left: 50px;
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.resume {
+  padding: 10px;
+  background-color: none;
+  border: none;
+}
+.link-to-resume {
+  text-decoration: none;
+  border-radius: 10px 10px;
+  padding: 10px 10px;
+  font-size: 20px !important;
+  font-weight: 500;
+  border: 3px solid rgb(0, 122, 180);
+  color: rgb(0, 122, 180);
+  margin: 10px 10px;
+}
+
+/*---------------second end-------------*/
+
+/*---------------third start------------*/
+
+.project-head{
+    color: black;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    display: block;
+
+    margin: 30px 30px;
+    position:relative;
+    top: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.projects{
+    display: block;
+    margin: 30px 30px;
+    position:relative;
+    top: 20%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.project-grid{
+    display: block;
+    margin: 30px 30px;
+    position:relative;
+    top: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+.row{
+    display: flex;
+ 
+}
+.project-text-title{
+    color: black;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.explanation{
+  color: black;
+  font-family: "Poppins",sans-serif;
+}
+.part1{
+  margin: 0px 50px 0px 0px;
+}
