@@ -4,15 +4,22 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-face-color: aqua;
 }
+
 .wrapper {
   display: block;
 }
+
+body {
+  transition: 0.8s linear;
+}
+
 /*--------------first page----------*/
 
 .container1 {
   height: 100vh;
-    display: block;
+  display: block;
 }
 
 .introduction {
@@ -24,30 +31,32 @@ html {
 }
 
 .hero-title {
-  color: black;
   font-size: 45px;
   font-family: "Poppins", sans-serif;
   display: block;
 }
+
 .text-color-main {
   color: rgb(0, 122, 180);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 45px;
   font-family: "Poppins", sans-serif;
+  text-shadow: -2px -2px 10px -15px rgb(0, 122, 180);
 }
 
 .hero-cta {
   font-size: 16px;
+  margin: 20px 0px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-  color: rgb(0, 122, 180);
 }
+
 .cta-btn--hero {
-  font-family: "Poppins",sans-serif                                 ;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   border-radius: 10px 10px;
   padding: 10px 10px;
-  font-size: 20px !important;
+  font-size: 20px;
   font-weight: 500;
   border: 3px solid rgb(0, 122, 180);
   color: rgb(0, 122, 180);
@@ -58,107 +67,116 @@ html {
 
 /*---------------start second page--------*/
 
-
-.about-intro{
-    padding: 50px 30px;
+.about-intro {
+  padding: 50px 30px;
 }
 
-.img-fluid{
-    width: 20%;
-    height: auto;
-
+.img-profile {
+  width: 20%;
+  height: auto;
+  box-shadow: 2px 2px 50px -12px rgb(0, 122, 180);
 }
+
 .more {
   display: flex;
 }
 
 .about-info-text {
   padding-left: 50px;
-  color: black;
+
   font-size: 25px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-}
-.resume {
-  padding: 10px;
-  background-color: none;
-  border: none;
-}
-.link-to-resume {
-  text-decoration: none;
-  border-radius: 10px 10px;
-  padding: 10px 10px;
-  font-size: 20px !important;
-  font-weight: 500;
-  border: 3px solid rgb(0, 122, 180);
-  color: rgb(0, 122, 180);
-  margin: 10px 10px;
 }
 
 /*---------------second end-------------*/
 
 /*---------------third start------------*/
 
-.project-head{
-    color: black;
-    font-size: 45px;
-    font-family: "Poppins", sans-serif;
-    display: block;
-
-    margin: 30px 30px;
-    position:relative;
-    top: 10%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+.normal-title {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  margin: 50px 30px;
+  position: relative;
+  top: 10%;
 }
 
-.projects{
-    display: block;
-    margin: 30px 30px;
-    position:relative;
-    top: 20%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+.projects {
+  display: block;
+  margin: 30px 30px;
+  position: relative;
+  top: 20%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-.project-grid{
-    display: block;
-    margin: 30px 30px;
-    position:relative;
-    top: 30%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+.project-grid {
+  display: block;
+  margin: 30px 30px;
+  position: relative;
+  top: 30%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
+.row {
+  display: flex;
 }
-.row{
-    display: flex;
- 
+
+.project-text-title {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
-.project-text-title{
-    color: black;
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
+
+.explanation {
+  font-family: "Poppins", sans-serif;
 }
-.explanation{
-  color: black;
-  font-family: "Poppins",sans-serif;
-}
-.part1{
+
+.part1 {
   margin: 0px 50px 0px 0px;
 }
 
-.contact-info{
+/*hehehehe*/
+
+.contact-info {
   font-size: 33px;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 122, 180);
 }
-.links-contact{
+
+.links-contact {
   text-decoration: none;
-  font-family: "Roboto",sans-serif;
-  color: black;
+  font-family: "Roboto", sans-serif;
 }
-footer{
-  position: relative;
-  font-family: "Roboto",sans-serif;
+
+footer {
   margin: 30px 30px;
-  top: 70%;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapp {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  margin: 30px 30px;
+}
+
+.hero-contact {
+  font-size: 45px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.dark-mode {
+  font-size: 30px;
+}
+
+.dark-body {
+  background-color: #0b0a14;
+  color: white;
+}
+
+.dark-text {
+  text-shadow: -2px -2px 10px -15px rgb(0, 122, 180);
 }
