@@ -43,7 +43,7 @@ html {
   color: rgb(0, 122, 180);
 }
 .cta-btn--hero {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins",sans-serif                                 ;
   text-decoration: none;
   border-radius: 10px 10px;
   padding: 10px 10px;
@@ -145,4 +145,20 @@ html {
 }
 .part1{
   margin: 0px 50px 0px 0px;
+}
+
+.contact-info{
+  font-size: 33px;
+  font-family: "Roboto",sans-serif;
+}
+.links-contact{
+  text-decoration: none;
+  font-family: "Roboto",sans-serif;
+  color: black;
+}
+footer{
+  position: relative;
+  font-family: "Roboto",sans-serif;
+  margin: 30px 30px;
+  top: 70%;
 }
